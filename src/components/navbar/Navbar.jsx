@@ -9,7 +9,7 @@ const Navbar = () => {
                 src="/finet_logo_white.png"
                 width={72}
                 height={72}
-                quality={95}
+                quality={100}
                 priority={true}
                 className="flex justify-center items-center"
             >
