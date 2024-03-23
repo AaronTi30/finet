@@ -1,0 +1,82 @@
+.pastSpeakers1Child {
+    position: absolute;
+    top: 256.5px;
+    left: 835.5px;
+    border-top: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 250px;
+    height: 1px;
+  }
+  .pastSpeakers {
+    position: absolute;
+    top: 167px;
+    left: 776px;
+  }
+  .rolodexCard1Child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 1128px;
+    height: 692px;
+  }
+  .toWhomThis {
+    margin: 0;
+  }
+  .cedricSanango,
+  .toWhomThisContainer {
+    position: absolute;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .toWhomThisContainer {
+    top: 168px;
+    left: 566px;
+    display: inline-block;
+    width: 475px;
+    height: 432px;
+  }
+  .cedricSanango {
+    top: 88px;
+    left: 715px;
+    font-size: 25px;
+  }
+  .cedricSanogoGeneralMotors {
+    position: absolute;
+    top: 88px;
+    left: 121px;
+    width: 319px;
+    height: 517px;
+    object-fit: cover;
+  }
+  .rolodexCard1Item {
+    position: absolute;
+    top: 135.5px;
+    left: 754.5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-top: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 97px;
+    height: 1px;
+  }
+  .rolodexCard1 {
+    position: absolute;
+    top: 296px;
+    left: 396px;
+    width: 1128px;
+    height: 692px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .pastSpeakers1 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 1080px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 50px;
+    color: var(--color-black);
+    font-family: var(--font-playfair-display);
+  }
+  
