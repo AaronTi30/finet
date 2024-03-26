@@ -1,0 +1,54 @@
+.box {
+  height: 500px;
+  width: 1000px;
+}
+
+.box .rectangle {
+  background-color: #f0f0f0;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 500px;
+  left: 225px;
+  position: relative;
+  top: 100px;
+  width: 1000px;
+}
+
+.labeltitle {
+  height: 33px;
+  width: 200px;
+}
+
+.labeltitle .textwrapper {
+  color: #000000;
+  font-family: "Playfair Display-Regular", Helvetica;
+  font-size: 25px;
+  left: 840px;
+  bottom: 350px;
+  line-height: normal;
+  position: relative;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+/* .label {
+  height: 432px;
+  width: 475px;
+}
+
+.label .description {
+  color: #000000;
+  font-family: "Playfair Display-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: fixed;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 0;
+  width: 475px;
+} */
+
+
+
+
