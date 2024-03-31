@@ -1,16 +1,25 @@
-import React from "react"
+"use client";
+
+import React, { useEffect } from "react"
+
 import styles from "./representatives.module.css"
-import RolodexPage from "./rolodexpage"
+import { rolodexHandler } from "./rolodexhandler"
+
+function MyComponent() {
+  useEffect(() => {
+    rolodexHandler();
+  }, []);
+  return rolodexHandler;
+}
 
 const RepresentativePage = () => {
-
-  render(); {
-    RolodexPage()
-  }
-
+    
+  useEffect(() => {
+      MyComponent();
+    })
+    
     return (
-<ul class="rolodex">  
-
+<ul class="MyComponent">  
   <li class="item1">
     <div className={styles.box}>
       <div className={styles.rectangle} />

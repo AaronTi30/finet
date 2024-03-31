@@ -1,16 +1,21 @@
-var dexs = document.getElementsByClassName('rolodex');
+import React from 'react';
+import { ReactDOM } from 'react';
 
-for (var i=0; i<dexs.length; i++) {
-  var dex = dexs[i];
-  var cards = dex.getElementsByTagName('li');
-  cards = [].slice.call(cards);
+function RolodexPage() {
+
+    var dexs = document.getElementsByClassName('rolodex');
+
+    for (var i=0; i<dexs.length; i++) {
+    var dex = dexs[i];
+    var cards = dex.getElementsByTagName('li');
+    cards = [].slice.call(cards);
   
-  cards[0].classList.add('first');
-  cards[1].classList.add('second');
+    cards[0].classList.add('first');
+    cards[1].classList.add('second');
 //   cards[2].classList.add('third');
 //   cards[3].classList.add('fourth');
   
-  dex.onclick = function () {
+    dex.onclick = function () {
     console.log(cards);
     
     cards[0].classList.add('front');
@@ -33,4 +38,5 @@ for (var i=0; i<dexs.length; i++) {
     var first = cards.shift();
     cards.push(first);
   }
+}
 }
