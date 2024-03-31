@@ -1,7 +1,13 @@
 import React from "react"
 import styles from "./representatives.module.css"
+import RolodexPage from "./rolodexpage"
 
 const RepresentativePage = () => {
+
+  render(); {
+    RolodexPage()
+  }
+
     return (
 <ul class="rolodex">  
 
