@@ -1,15 +1,21 @@
 "use client";
 
 import React, { useEffect } from "react"
-
+import { render } from "react-dom";
 import styles from "./representatives.module.css"
 import { rolodexHandler } from "./rolodexhandler"
 
 function MyComponent() {
-  useEffect(() => {
-    rolodexHandler();
-  }, []);
-  return rolodexHandler;
+  const domNode = document.getElementById('root');
+  const root = createRoot(domNode);
+  
+  root.render(<rolodexHandler/>)
+
+  {
+    useEffect(() => {
+      rolodexHandler();
+    }, [])
+  } 
 }
 
 const RepresentativePage = () => {
