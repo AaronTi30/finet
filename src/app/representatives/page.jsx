@@ -5,24 +5,24 @@ import { render } from "react-dom";
 import styles from "./representatives.module.css"
 import { rolodexHandler } from "./rolodexhandler"
 
-function MyComponent() {
-  const domNode = document.getElementById('root');
-  const root = createRoot(domNode);
+// function MyComponent() {
+//   const domNode = document.getElementById('root');
+//   const root = createRoot(domNode);
   
-  root.render(<rolodexHandler/>)
+//   root.render(<rolodexHandler/>)
 
-  {
-    useEffect(() => {
-      rolodexHandler();
-    }, [])
-  } 
-}
+//   {
+//     useEffect(() => {
+//       rolodexHandler();
+//     }, [])
+//   } 
+// }
 
 const RepresentativePage = () => {
     
-  useEffect(() => {
-      MyComponent();
-    })
+  // useEffect(() => {
+  //     MyComponent();
+  //   })
     
     return (
 <ul class="MyComponent">  
