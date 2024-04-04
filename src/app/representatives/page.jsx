@@ -30,7 +30,7 @@ const RepresentativePage = () => {
     <div className={styles.box}>
       <div className={styles.rectangle} />
       <div className={styles.labeltitle}>
-      <div className={styles.textwrapper}>Cedric Sanango</div>
+      {/* <div className={styles.textwrapper}>Cedric Sanango</div> */}
       {/* <div className={styles.label}>
       <p className={styles}>
         “To whom this may concern,

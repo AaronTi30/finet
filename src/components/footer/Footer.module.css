@@ -1,0 +1,74 @@
+.box {
+    height: 259px;
+    width: 1920px;
+  }
+  
+  .box .footer {
+    background-color: transparent;
+    height: 500px;
+    left: 0;
+    bottom: 0;
+    position: relative;
+    width: 1928px;
+  }
+
+  
+  .box .overlap-group {
+    background-color: #ffffff;
+    height: 259px;
+    position: relative;
+    width: 1920px;
+  }
+  
+  .box .text-wrapper {
+    color: #0573e8;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    left: 125px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 122px;
+  }
+  
+  .box .text-wrapper-2 {
+    color: #0573e8;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    left: 125px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 94px;
+  }
+  
+  .box .text-wrapper-3 {
+    color: #0573e8;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    left: 125px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 36px;
+  }
+  
+  .box .text-wrapper-4 {
+    color: #0573e8;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    left: 125px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 65px;
+  }
+  
