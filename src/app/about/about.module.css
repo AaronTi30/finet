@@ -1,0 +1,62 @@
+.box {
+    height: 757px;
+    position: relative;
+    width: 1930px;
+}
+
+.box .base-layer {
+    height: 757px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 1936px;
+}
+
+.box .overlap-group {
+    background-image: url(../../components/images/action_3751351.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 413px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+}
+
+.box .group {
+    height: 61px;
+    left: 256px;
+    position: absolute;
+    top: 145px;
+    width: 229px;
+}
+
+.box .text-wrapper {
+    color: --text;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+}
+
+.box .div {
+    color: --txt;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 256px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 216px;
+    white-space: nowrap;
+    width: 760px;
+}
+
+.box .text-wrapper-2 {
+    
+}
