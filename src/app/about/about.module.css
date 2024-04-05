@@ -58,5 +58,36 @@
 }
 
 .box .text-wrapper-2 {
-    
+    color: --bg;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    left: 256px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 471px;
+    white-space: nowrap;
+}
+
+.box .line {
+    height: 1px;
+    left: 314px;
+    object-fit: cover;
+    position: absolute;
+    top: 540px;
+    width: 327px;
+}
+
+.box .description {
+    color: --bg;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 256px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 584px;
+    width: 1331px;
 }
