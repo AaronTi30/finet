@@ -6,6 +6,10 @@
 }
 
 .logo{
-    font-size: 30px;
-    font-weight: bold;
+    height: 79px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 85px;
 }

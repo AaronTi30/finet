@@ -3,3 +3,37 @@
     gap: 50px
 }
 
+.box {
+    height: 222px;
+    width: 285px;
+}
+
+.box .finet-logo-btn {
+    height: 222px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 289px;
+}
+
+.box .overlap-group {
+    height: 222px;
+    position: relative;
+    width: 285px;
+}
+
+.box .finet-logo-white-txt {
+    height: 205px;
+    left: 7px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 278px;
+}
+
+.box .rectangle {
+    background-color: --bg;
+    border: 1px solid;
+    border-color: --text;
+}
+
