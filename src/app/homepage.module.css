@@ -35,5 +35,50 @@
     background-color: --bg;
     border: 1px solid;
     border-color: --text;
+    border-radius: 28px;
+    height: 33px;
+    left: 0;
+    position: absolute;
+    top: 189px;
+    width: 122px;
 }
+
+.box .div {
+    background-color : --bg;
+    border: 1px solid;
+    border-color: --text;
+    border-radius: 28px;
+    height: 33px;
+    left: 163px;
+    position: absolute;
+    top: 189px;
+    width: 122px;
+}
+
+.box .text-wrapper {
+    color: --txt;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 10px;
+    font-weight: 700;
+    left: 191px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 199px;
+    white-space: nowrap;
+}
+
+.box .text-wrapper-2 {
+    color: --txt;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 10px;
+    font-weight: 700;
+    left: 26px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 199px;
+    white-space: nowrap;
+}
+
 

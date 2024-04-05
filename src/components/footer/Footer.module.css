@@ -8,8 +8,10 @@
     height: 500px;
     left: 0;
     bottom: 0;
+    right: 0;
     position: relative;
     width: 1928px;
+    height: calc(100% - 60px);
   }
 
   
