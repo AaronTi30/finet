@@ -32,7 +32,7 @@
 }
 
 .box .text-wrapper {
-    color: --text;
+    color: --white;
     font-family: "Inter-Bold", Helvetica;
     font-size: 50px;
     font-weight: 700;
@@ -44,7 +44,7 @@
 }
 
 .box .div {
-    color: --txt;
+    color: --white;
     font-family: "Inter-Regular", Helvetica;
     font-size: 30px;
     font-weight: 400;
@@ -58,7 +58,7 @@
 }
 
 .box .text-wrapper-2 {
-    color: --bg;
+    color: --base-blue;
     font-family: "Inter-Bold", Helvetica;
     font-size: 40px;
     font-weight: 700;
@@ -80,7 +80,7 @@
 }
 
 .box .description {
-    color: --bg;
+    color: --base-blue;
     font-family: "Inter-Regular", Helvetica;
     font-size: 20px;
     font-weight: 400;

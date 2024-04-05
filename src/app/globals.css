@@ -10,8 +10,8 @@
 
     /* Colors */
     --color-black: #000;
-    --bg: #0573E8;
-    --text: white;
+    --base-blue: #0573E8;
+    --white: white;
     --rolodex-card: #f0f0f0;
 }
 
