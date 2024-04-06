@@ -29,8 +29,19 @@ export default function Home() {
         <div className={classes["test-title"]}>
           <div className={classes["test-line"]}>
             <div className={classes["overlap-group"]}>
-            
             </div> 
+          </div>
+        </div>
+      </div>
+      <div className={classes.testcard}>
+        <div className={classes["card-1"]}>
+          <div className={classes["overlap-group"]}>
+            <div className={classes["speaker"]}>-FINET Speaker</div>
+            <div className={classes[classes.name]}>-Sowmya Desaraju</div>
+            <img className={classes["image"]} alt="SDP" src="../components/images/Sowmya Desaraju (BNP Paribas).jpeg"/>
+            <p className={classes.description}>
+              {/* description goes here */}
+            </p>
           </div>
         </div>
       </div>
