@@ -32,7 +32,7 @@
 }
 
 .box .rectangle {
-    background-color: --bg;
+    background-color: #0573e8;
     border: 1px solid;
     border-color: --text;
     border-radius: 28px;
@@ -44,7 +44,7 @@
 }
 
 .box .div {
-    background-color : --bg;
+    background-color : #0573e8;
     border: 1px solid;
     border-color: --text;
     border-radius: 28px;
@@ -80,5 +80,23 @@
     top: 199px;
     white-space: nowrap;
 }
+
+.box .test-title {
+    height: 65px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 373px;
+}
+
+.box .test-line {
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 64px;
+    width: 371px;
+}
+
 
 
