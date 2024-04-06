@@ -6,24 +6,32 @@ import SectionDivider from "@/components/section-divider/section-divider";
 export default function Home() {
   return (
     <div className={styles.container}>
-      {/* <SectionDivider /> */}
-      <div className={classes.box}>
-        {/* HOME PAGE */}
-        {/* <div className={classes["finet-logo-btn"]}> */}
-          <div className="overlap-group">
-            <img className="finet-logo-white-txt" alt="LOGO" src="../components/images/finet_logo_white_txt.png"/>
-            <div className="rectangle" />
-            <div className="div" />
-            <div className="text-wrapper">Join The Team</div>
-            <div className="text-wrapper-2">View Our Work</div>
+      {/* HOME PAGE */}
+      <div className={classes.home}>
+        <div className={classes["finet-logo-btn"]}>
+          <div className={classes["overlap-group"]}>
+            <img className={classes["finet-logo-white-txt"]} alt="LOGO" src="../components/images/finet_logo_white_txt.png"/>
+            <div className={classes["rectangle"]} />
+            <div className={classes["div"]} />
+            <div className={classes["text-wrapper"]}>Join The Team</div>
+            <div className={classes["text-wrapper-2"]}>View Our Work</div>
           </div>
-        {/* </div> */}
-        {/* HOME PAGE MESSAGE */}
+        </div>
+      </div>
+      {/* <SectionDivider /> */}
 
-        {/* HOME PAGE VIDEO */}
+      {/* HOME PAGE MESSAGE */}
 
-        {/* HOME PAGE TESTIMONIALS */}
+      {/* HOME PAGE VIDEO */}
+
+      {/* HOME PAGE TESTIMONIALS */}
+      <div className={classes.home}>
         <div className={classes["test-title"]}>
+          <div className={classes["test-line"]}>
+            <div className={classes["overlap-group"]}>
+            
+            </div> 
+          </div>
         </div>
       </div>
     </div>
