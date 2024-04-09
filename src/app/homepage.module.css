@@ -81,6 +81,21 @@
     white-space: nowrap;
 }
 
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+
 .home .test-title {
     height: 65px;
     left: 0;
@@ -124,6 +139,38 @@
     width: 292px;
 }
 
+.testcard .card-2 {
+    height: 383px;
+    left: 450px;
+    position: relative;
+    bottom: 383px;
+    width: 292px;
+}
+
+.testcard .card-3 {
+    height: 383px;
+    left: 800px;
+    position: relative;
+    bottom: 765px;
+    width: 292px;
+}
+
+.testcard .card-4 {
+    height: 383px;
+    left: 1150px;
+    position: relative;
+    bottom: 1150px;
+    width: 292px;
+}
+
+.testcard .card-5 {
+    height: 383px;
+    left: 1500px;
+    position: relative;
+    bottom: 1535px;
+    width: 292px;
+}
+
 .testcard .overlap-group {
     background-image: url(../components/images/speakercard.png);
     background-size: 100% 100%;
@@ -132,16 +179,6 @@
     position: relative;
     width: 294px;
 }
-
-.testcard .rectangle {
-    background-color: #f0f0f0;
-    box-shadow: 0px 4px 4px #00000040;
-    height: 383px;
-    left: 225px;
-    position: relative;
-    top: 100px;
-    width: 292px;
-  }
 
 .testcard .speaker {
     color: #000;

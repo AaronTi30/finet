@@ -23,6 +23,13 @@ body{
     line-height: normal;
 }
 
+body-2 {
+    background-color: var(--text);
+    color:var(--bg);
+    margin: 0;
+    line-height: normal;
+}
+
 *{
     margin: 0;
     padding: 0;
