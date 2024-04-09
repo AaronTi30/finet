@@ -11,7 +11,7 @@ export default function Home() {
       <div className={classes.home}>
         <div className={classes["finet-logo-btn"]}>
           <div className={classes["overlap-group"]}>
-            <img className={classes["finet-logo-white-txt"]} alt="LOGO" src="../components/images/finet_logo_white_txt.png"/>
+            <img className={classes["finet-logo-white-txt"]} src="../components/images/finet_logo_white_txt.png" alt="LOGO"/>
             <div className={classes["rectangle"]} />
             <div className={classes["div"]} />
             <div className={classes["text-wrapper"]}>Join The Team</div>
@@ -30,10 +30,7 @@ export default function Home() {
 
       {/* HOME PAGE TESTIMONIALS */}
       <div className={classes.home}>
-        <div className={classes["test-title"]}>
-          <div className={classes.testline}/>
-            <div className={classes["test-text-wrapper"]}>TESTIMONIALS</div>
-        </div>
+        <div className={classes["test-title"]}>TESTIMONIALS</div>
       </div>
       {/* Sowmya Desaraju */}
       <div className={classes.testcard}>
@@ -91,6 +88,8 @@ export default function Home() {
             </p>
           </div>
         </div>
+        <div className={classes["leftarrow"]}/>
+        <div className={classes["rightarrow"]}/>
       </div>
     </div>
   );
