@@ -5,13 +5,11 @@
   
   .box .footer {
     background-color: transparent;
-    height: 500px;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    clear: both;
+    margin-top: -200;
+    margin-right: 50px;
     position: relative;
-    width: 1928px;
-    height: calc(100% - 60px);
+    width: 1000px;
   }
 
   
