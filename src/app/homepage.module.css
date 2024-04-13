@@ -24,32 +24,33 @@
 
 .home .finet-logo-white-txt {
     height: 205px;
-    left: 7px;
+    left: 930px;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 120px;
     width: 278px;
 }
 
-.home .rectangle {
+.home .btnwork-home {
     background-color: #0573e8;
     border: 1px solid;
     border-color: --text;
     border-radius: 28px;
     height: 33px;
-    left: 0;
+    left: 820px;
     position: absolute;
     top: 189px;
     width: 122px;
 }
 
-.home .div {
+/* 163px difference */
+.home .btnteam-home {
     background-color : #0573e8;
     border: 1px solid;
     border-color: --text;
     border-radius: 28px;
     height: 33px;
-    left: 163px;
+    left: 983px;
     position: absolute;
     top: 189px;
     width: 122px;
@@ -60,7 +61,7 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 10px;
     font-weight: 700;
-    left: 191px;
+    left: 845px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -73,7 +74,7 @@
     font-family: "Inter-Bold", Helvetica;
     font-size: 10px;
     font-weight: 700;
-    left: 26px;
+    left: 1010px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;

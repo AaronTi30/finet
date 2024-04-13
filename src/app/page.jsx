@@ -12,8 +12,8 @@ export default function Home() {
         <div className={classes["finet-logo-btn"]}>
           <div className={classes["overlap-group"]}>
             <img className={classes["finet-logo-white-txt"]} src="../components/images/finet_logo_white_txt.png" alt="LOGO"/>
-            <div className={classes["rectangle"]} />
-            <div className={classes["div"]} />
+            <div className={classes["btnwork-home"]} />
+            <div className={classes["btnteam-home"]} />
             <div className={classes["text-wrapper"]}>Join The Team</div>
             <div className={classes["text-wrapper-2"]}>View Our Work</div>
           </div>
