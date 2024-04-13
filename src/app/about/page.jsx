@@ -1,9 +1,11 @@
 import React from "react";
+import styles from "./about.module.css"
 import * as classes from "./about.module.css";
 
 const AboutPage = () => {
     return (
-        <div className={classes.about}>
+        <div className={styles.container}>
+            <div className={classes.about}>
             <div className={classes["base-layer"]}>
                 <div className={classes["overlap-group"]}>
                     <div className={classes.group}>
@@ -22,18 +24,18 @@ const AboutPage = () => {
                 habitant morbi  tristique senectus et netus et malesuada fames ac turpis egestas. Proin  non aliquet diam. 
                 </p>
             </div>
-            
             {/* not reading properly */}
             <div className={classes.founder}>
-                <div className="group">
-                    <div className="text-wrapper">MEET</div>
-                    <div className="div">THE FOUNDERS</div>
+                <div className={classes.group}>
+                    <div className="found-text-wrapper">MEET</div>
+                    <div className={classes.div}>THE FOUNDERS</div>
                 </div>
                 <img className="found-line" alt="Line" src="../../components/images/about-found-line.png"/>
                 <img className="yash" alt="yash" src="../../components/images/stock-headshot.png"/>
                 <img className="yash2" alt="yash2" src="../../components/images/stock-headshot.png"/>
            </div>
         </div>
+    </div>
     );
 };
 

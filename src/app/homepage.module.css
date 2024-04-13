@@ -98,12 +98,13 @@
 
 .home .test-title {
     height: 65px;
-    left: 880px;
+    left: 850px;
     position: relative;
-    top: 0;
+    top: 110px;
     width: 373px;
     color: #ffffff;
     font-family: "Inter-Bold", Helvetica;
+    font-size: xx-large;
     font-weight: 700;
 }
 
@@ -218,7 +219,7 @@
     width: 68px;
 }
 
-.testcard .name {
+.testcard .name-s {
     color: #000;
     font-family: "Playfair Display-Regular", Helvetica;
     font-size: 8px;
@@ -228,7 +229,59 @@
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 304px;
+    top: 290px;
+}
+
+.testcard .name-w {
+    color: #000;
+    font-family: "Playfair Display-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 117px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 340px;
+}
+
+.testcard .name-h {
+    color: #000;
+    font-family: "Playfair Display-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 120px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 320px;
+}
+
+.testcard .name-c {
+    color: #000;
+    font-family: "Playfair Display-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 120px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 240px;
+}
+
+.testcard .name-u {
+    color: #000;
+    font-family: "Playfair Display-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 115px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 285px;
 }
 
 .testcard .image {
