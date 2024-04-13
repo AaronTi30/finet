@@ -1,10 +1,10 @@
-.box {
+.about {
     height: 757px;
     position: relative;
     width: 1930px;
 }
 
-.box .base-layer {
+.about .base-layer {
     height: 757px;
     left: 0;
     position: relative;
@@ -12,7 +12,7 @@
     width: 1936px;
 }
 
-.box .overlap-group {
+.about .overlap-group {
     background-image: url(../../components/images/action_3751351.jpg);
     background-position: 50% 50%;
     background-size: cover;
@@ -23,7 +23,7 @@
     width: 1920px;
 }
 
-.box .group {
+.about .group {
     height: 61px;
     left: 256px;
     position: absolute;
@@ -31,7 +31,7 @@
     width: 229px;
 }
 
-.box .text-wrapper {
+.about .text-wrapper {
     color: --white;
     font-family: "Inter-Bold", Helvetica;
     font-size: 50px;
@@ -43,7 +43,7 @@
     top: 0;
 }
 
-.box .div {
+.about .div {
     color: --white;
     font-family: "Inter-Regular", Helvetica;
     font-size: 30px;
@@ -57,7 +57,7 @@
     width: 760px;
 }
 
-.box .text-wrapper-2 {
+.about .text-wrapper-2 {
     color: --base-blue;
     font-family: "Inter-Bold", Helvetica;
     font-size: 40px;
@@ -70,7 +70,7 @@
     white-space: nowrap;
 }
 
-.box .line {
+.about .line {
     height: 1px;
     left: 314px;
     object-fit: cover;
@@ -79,7 +79,7 @@
     width: 327px;
 }
 
-.box .description {
+.about .description {
     color: --base-blue;
     font-family: "Inter-Regular", Helvetica;
     font-size: 20px;
@@ -91,3 +91,71 @@
     top: 584px;
     width: 1331px;
 }
+
+.founders {
+    background-color: #0573e8;
+    border: 1px solid;
+    border-color: #000000;
+    height: 1080px;
+    position: relative;
+    width: 1920px;
+  }
+  
+  .founder .group {
+    height: 110px;
+    left: 737px;
+    position: absolute;
+    top: 162px;
+    width: 392px;
+  }
+  
+  .founder .text-wrapper {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+    left: 158px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .founder .div {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 49px;
+  }
+  
+  .founder .yash {
+    height: 658px;
+    left: 441px;
+    position: absolute;
+    top: 367px;
+    width: 440px;
+  }
+  
+  .founder .yash2 {
+    height: 654px;
+    left: 948px;
+    position: absolute;
+    top: 367px;
+    width: 440px;
+  }
+  
+  .founder .found-line {
+    height: 1px;
+    left: 807px;
+    object-fit: cover;
+    position: absolute;
+    top: 292px;
+    width: 246px;
+  }
+  

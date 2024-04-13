@@ -13,26 +13,27 @@ const AboutPage = () => {
                 </div>
                 <div className={classes["text-wrapper-2"]}>Why We Started FINET</div>
                 <p className={classes["description"]}>
-                {/* description goes here */}
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas  est sit amet porttitor sagittis. 
+                Suspendisse a sollicitudin arcu, eget  dictum libero. Maecenas in volutpat massa. Aliquam sit amet blandit  mauris. 
+                Quisque pharetra lorem ac risus laoreet, et tristique dolor  tincidunt. Nullam a nulla vitae neque pulvinar sollicitudin vitae a  arcu. 
+                Pellentesque eu aliquet justo, non scelerisque lacus. <br />
+                <br />
+                Maecenas sed  hendrerit massa. Aenean id varius tellus. Maecenas purus ex, feugiat in  sollicitudin nec, malesuada nec libero. Pellentesque 
+                habitant morbi  tristique senectus et netus et malesuada fames ac turpis egestas. Proin  non aliquet diam. 
                 </p>
             </div>
-            <div className={classes.founders}>
-                <div className={classes["about-us-own"]}>
-                    <div className={classes.meet-group}>
-                        <div className={classes["meet-text-wrapper"]}>MEET</div>
-                        <div className={classes.found-text-wrapper}>THE FOUNDERS</div>
-                    </div>
-                    {/* Yash */}
-                    <img className={classes.meet-group} src="" alt="" />
-                    <div className={classes["name-text-wrapper"]}>John Jones</div>
-                    <p className={classes["name-text-wrapper"]}>Founder - Student- Product Manager</p>
-                    <p className={classes["note-text-warpper"]}>
-                        {/* description goes here */}
-                    </p>
+            
+            {/* not reading properly */}
+            <div className={classes.founder}>
+                <div className="group">
+                    <div className="text-wrapper">MEET</div>
+                    <div className="div">THE FOUNDERS</div>
                 </div>
-            </div>
+                <img className="found-line" alt="Line" src="../../components/images/about-found-line.png"/>
+                <img className="yash" alt="yash" src="../../components/images/stock-headshot.png"/>
+                <img className="yash2" alt="yash2" src="../../components/images/stock-headshot.png"/>
+           </div>
         </div>
-
     );
 };
 
