@@ -25,7 +25,7 @@ const AboutPage = () => {
                 </p>
             </div>
             {/* not reading properly */}
-            <div className={classes.founder}>
+            {/* <div className={classes.founder}>
                 <div className={classes.group}>
                     <div className="found-text-wrapper">MEET</div>
                     <div className={classes.div}>THE FOUNDERS</div>
@@ -33,7 +33,7 @@ const AboutPage = () => {
                 <img className="found-line" alt="Line" src="../../components/images/about-found-line.png"/>
                 <img className="yash" alt="yash" src="../../components/images/stock-headshot.png"/>
                 <img className="yash2" alt="yash2" src="../../components/images/stock-headshot.png"/>
-           </div>
+           </div> */}
         </div>
     </div>
     );
