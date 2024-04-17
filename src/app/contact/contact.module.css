@@ -1,5 +1,5 @@
 .contact-us {
-    background-color: #f0f0f0;
+    background-color: #0573e8;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -7,14 +7,14 @@
   }
   
   .contact-us .div {
-    background-color: #f0f0f0;
+    background-color: #0573e8;
     height: 1252px;
     position: relative;
     width: 1920px;
   }
   
   .contact-us .text-wrapper {
-    color: #000000;
+    color: #ffffff;
     font-family: "Raleway-SemiBold", Helvetica;
     font-size: 100px;
     font-weight: 600;
@@ -43,7 +43,7 @@
   }
   
   .contact-us .text-wrapper-2 {
-    color: #000000;
+    color: #ffffff;
     font-family: "Raleway-Regular", Helvetica;
     font-size: 30px;
     font-weight: 400;
@@ -161,7 +161,7 @@
   }
   
   .contact-us .text-wrapper-5 {
-    color: #000000;
+    color: #ffffff;
     font-family: "Raleway-Regular", Helvetica;
     font-size: 20px;
     font-weight: 400;
@@ -174,7 +174,7 @@
   }
   
   .contact-us .text-wrapper-6 {
-    color: #000000;
+    color: #ffffff;
     font-family: "Raleway-Regular", Helvetica;
     font-size: 20px;
     font-weight: 400;
@@ -187,7 +187,7 @@
   }
   
   .contact-us .text-wrapper-7 {
-    color: #000000;
+    color: #ffffff;
     font-family: "Raleway-Medium", Helvetica;
     font-size: 20px;
     font-weight: 500;
@@ -208,7 +208,7 @@
   }
   
   .contact-us .text-wrapper-8 {
-    color: #000000;
+    color: #ffffff;
     font-family: "Raleway-Regular", Helvetica;
     font-size: 20px;
     font-weight: 400;
@@ -221,7 +221,7 @@
   }
   
   .contact-us .text-wrapper-9 {
-    color: #000000;
+    color: #ffffff;
     font-family: "Raleway-Regular", Helvetica;
     font-size: 20px;
     font-weight: 400;
@@ -234,7 +234,7 @@
   }
   
   .contact-us .text-wrapper-10 {
-    color: #000000;
+    color: #ffffff;
     font-family: "Raleway-Medium", Helvetica;
     font-size: 20px;
     font-weight: 500;
@@ -255,7 +255,7 @@
   }
   
   .contact-us .text-wrapper-11 {
-    color: #000000;
+    color: #ffffff;
     font-family: "Raleway-Regular", Helvetica;
     font-size: 20px;
     font-weight: 400;
@@ -268,7 +268,7 @@
   }
   
   .contact-us .text-wrapper-12 {
-    color: #000000;
+    color: #ffffff;
     font-family: "Raleway-Medium", Helvetica;
     font-size: 20px;
     font-weight: 500;
@@ -281,7 +281,7 @@
   }
   
   .contact-us .text-wrapper-13 {
-    color: #000000;
+    color: #ffffff;
     font-family: "Raleway-Regular", Helvetica;
     font-size: 30px;
     font-weight: 400;

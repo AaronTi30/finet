@@ -6,7 +6,7 @@ export const ContactPage = () => {
     <div className={classes["contact-us"]}>
       <div className={classes.div}>
         <div className={classes["text-wrapper"]}>CONTACT US</div>
-        <img className={classes.line} alt="Line" src="line-31.svg" />
+        <img className={classes.line} alt="Line" src="../../components/images/contactLine.png" />
         <div className={classes["online-inquiry"]}>
           <div className={classes["text-wrapper-2"]}>ONLINE INQUIRY</div>
           <div className={classes.overlap}>
