@@ -9,6 +9,7 @@
     bottom: 2rem;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 
@@ -26,11 +27,14 @@
 
 }
 
+.next {
+    font-size: 3rem;
+}
+
 .next ion-icon {
     font-size: 3rem;
     color: var(--text);
-    border-radius: 50% ;
-    transform: translate(100px);
+    transform: translate(225px);
 
 }
 .prev ion-icon {

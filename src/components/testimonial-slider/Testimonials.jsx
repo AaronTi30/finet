@@ -55,7 +55,7 @@ const Testimonial = () => {
                 <IonIcon icon={arrowBackCircleOutline}></IonIcon>
             </div>
             <div className={styles.next}>
-                <ion-icon icon={arrowForwardCircleOutline}></ion-icon>
+                <IonIcon icon={arrowForwardCircleOutline}></IonIcon>
             </div>
             <div className={styles.pagination}></div>
         </div>
