@@ -6,12 +6,14 @@
 :root{
     --bg: #0573E8;
     --text: white;
+    --swiper-theme-color: whitesmoke;
 }
 
 
 body{
     background-color: var(--bg);
     color:var(--text);
+    height: 500vh;
 }
 
 *{
@@ -22,15 +24,39 @@ body{
 
 a{
     text-decoration: none;
-    color: inherit;
 }
 
 .container{
-    width:1536px;
+    width: 100%;
     margin: auto;
     padding-left: 50px;
     padding-right: 50px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;}
+    justify-content: space-between;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

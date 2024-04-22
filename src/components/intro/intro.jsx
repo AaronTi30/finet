@@ -34,14 +34,14 @@ export default function Intro() {
                     className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110
                     hover:bg-gray-950 active:scale-105 transition"
                 >
-                    Learn More {">"}
+                    Join The Team {">"}
                 </Link>
                 <a
                     className="group bg-gray-100 text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110
                     active:scale-105 transition cursor-pointer borderBlack"
                     href="/login"
                 >
-                    Get Started {">"}
+                    View our Work {">"}
                 </a>
             </div>
         </section>
