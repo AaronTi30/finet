@@ -3,6 +3,7 @@ import styles from "./homepage.module.css"
 import SectionDivider from "@/components/section-divider/section-divider";
 import Intro from "@/components/intro/intro";
 import Testimonial from "@/components/testimonial-slider/Testimonials";
+import Info from "@/components/info/info";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Intro />
       <SectionDivider />
       <Testimonial />
+      <Info />
     </div>
   )
 }

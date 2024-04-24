@@ -14,3 +14,27 @@ export const testimonialData = [
         icon: "/finet_logo_white.png",
     }
 ];
+
+export const speakerData = [
+    {
+        title: "Software Engineer",
+        name: "Alex Gao",
+        company: "BMO",
+        icon: "alexgao.png",
+        color: "#BBACAF"
+    },
+    {
+        title: "Artificial Intelligence",
+        name: "William Meyer",
+        company: "Blue Origin",
+        icon: "williammeyer.png",
+        color: "#977F6D"
+    },
+    {
+        title: "Project Manager",
+        name: "Jane Doe",
+        company: "IBM",
+        icon: "janedoe.png", 
+        color: "#C2491D"
+    }
+]

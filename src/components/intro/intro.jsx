@@ -8,9 +8,9 @@ import Link from "next/link"
 export default function Intro() {
     return (
         <section
-        className="text-center sm:mb-0 scroll-mt-[100rem]"
+        className="text-center sm:mb-0 scroll-mt-[100rem] space-y-4"
         >
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center mt-40">
                 <div className="relative">
                     <div>
                         <Image
