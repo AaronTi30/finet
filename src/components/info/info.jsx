@@ -36,9 +36,9 @@ const Info = () => {
       <div class="py-24 px-4 w-full relative flex justify-center items-center">
         <div class="max-h-full w-full absolute flex overflow-hidden">
         </div>
-        <div class="w-full h-full md:w-160 lg:w-240">
+        <div class="w-full h-full">
             <div class="relative w-full" style={{paddingTop: '5%'}}>
-            <iframe class="w-full h-full"  src="https://www.youtube.com/embed/8wysIxzqgPI" title="My Brain after 569 Leetcode Problems" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            <iframe width="1444" height="720" src="https://www.youtube.com/embed/8wysIxzqgPI" title="My Brain after 569 Leetcode Problems" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullScreen>
 
             </iframe>
             </div>
