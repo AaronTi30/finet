@@ -13,10 +13,12 @@ const Info = () => {
                 <hr class="w-20 mt-3 mb-6 text-white hidden md:block"/>
                 <h6 class="uppercase mb-2 text-base">Help us help you</h6>
                 <p class="mb-4 md:text-center">
-                We are always looking for student volunteers to help us with our projects. If you are interested in volunteering, please contact us.
+                We are always looking for student volunteers to help us with our projects. If you are interested in volunteering, please contact us. 
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti. 
                 </p>
-                <a class="flex space-x-2 text-base font-extrabold" href="/join">
-                <span>Join our team!</span>
+                <a class="flex space-x-2 text-base font-extrabold group bg-gray-100 text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110
+                    active:scale-105 transition cursor-pointer borderBlack" href="/join">
+                <span>Join our team! {">"}</span>
                 </a>
             </div>
             <div class="flex flex-col items-start md:text-center md:items-center md:pl-8 lg:pl-16 md:w-1/2">
@@ -27,8 +29,9 @@ const Info = () => {
                 Join our team of representatives across the globe to help us teach the future generation and help us make a difference. Whether you are just curious or are eager to
                 share your knowledge. FINET wants to be there to help you.
                 </p>
-                <a class="flex space-x-2 text-base font-extrabold" href="/contact">
-                <span>Contact Us</span>
+                <a class="flex space-x-2 text-base font-extrabold group bg-gray-100 text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110
+                    active:scale-105 transition cursor-pointer borderBlack" href="/contact">
+                <span>Contact Us {">"}</span>
                 </a>
             </div>
         </div>
