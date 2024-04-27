@@ -1,14 +1,9 @@
-import { speakerData } from "@/lib/data"
-
+import React from 'react'
 
 const RepresentativePage = () => {
     return (
         <div>
-            {
-                speakerData.map ((speakerData, index) =>{
-                    return <Card key={index} {...speakerData} />
-                })
-            }
+            speakerpage
         </div>
     )
 }
