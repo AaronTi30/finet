@@ -35,7 +35,7 @@ const Links = () => {
             {links.map((link=>(
                 <NavLink item={link} key={link.title}/>
             )))}{
-                session ? (
+/*                session ? (
                     <>
                     {
                         isAdmin && (
@@ -47,7 +47,7 @@ const Links = () => {
                 ) : (
                     <NavLink item={{title: "Login", path: "/login"}}/>
                 )
-            }
+            */            }
         </div>
     )
 }
