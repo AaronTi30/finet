@@ -100,6 +100,11 @@ const AboutPage = () => {
                 <p class="max-w-lg text-lg mb-5 md:text-center font-light">
                     Thank you to our sponsors for their generous support of our team and mission!
                 </p>
+                <a class="hover:opacity-100">
+                    <button class="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition">
+                        Become a sponsor
+                    </button>
+                </a>
             </section>
         </div>
     )
