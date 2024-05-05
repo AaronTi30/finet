@@ -34,3 +34,22 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+DONE:
+- [x] connected on temporary domain (https://finet-lilac.vercel.app/)
+- [x] Homepage general layout and styling
+- [x] Homepage Testimonial slider
+- [x] Animated buttons
+- [x] Navbar
+- [x] Footer
+- [x] Responsive design for about/students
+- [x] About section general layout and styling
+- [x] Students section general layout and styling
+
+TODO: 
+- [] Navbar responsive design -> collapsible hamburger menu
+- [] Testimonial slider responsive design -> carousel card slider
+- [] Contact form -> central finet email? 
+- [] Graphics etc
+- [] site information etc
