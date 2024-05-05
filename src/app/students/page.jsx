@@ -32,7 +32,7 @@ const StudentPage = () => {
                                 </figure>
                                 <figure class="flex flex-col items-center space-y-1">
                                     <img class="rounded-full object-cover h-32 w-32" src="\finet_logo_white.png"></img>
-                                    <p class="font-bold text-center">John Doe</p>
+                                    <p class="font-bold text-center">Arya Patel</p>
                                     <p class="text-charcoal-500 text-center capatalize"> Co-Founder </p>
                                 </figure>
                             </div>
