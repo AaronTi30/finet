@@ -48,9 +48,10 @@ DONE:
 - [x] Students section general layout and styling
 
 TODO: 
-- [ ] Navbar responsive design -> collapsible hamburger menu
+- [ ] Navbar sticky and responsive design -> collapsible hamburger menu
 - [ ] Testimonial slider responsive design -> carousel card slider
 - [ ] Contact form -> central finet email? 
 - [ ] Graphics etc
 - [ ] site information etc
 - [ ] establish and connect unique domain address
+- [ ] Representative page sliding carousel 
